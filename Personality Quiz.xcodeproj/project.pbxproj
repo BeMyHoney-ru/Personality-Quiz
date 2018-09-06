@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CF8495D821419D1200C73357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8495D721419D1200C73357 /* AppDelegate.swift */; };
-		CF8495DA21419D1200C73357 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8495D921419D1200C73357 /* ViewController.swift */; };
+		CF8495DA21419D1200C73357 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8495D921419D1200C73357 /* IntroductionViewController.swift */; };
 		CF8495DD21419D1200C73357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8495DB21419D1200C73357 /* Main.storyboard */; };
 		CF8495DF21419D1300C73357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8495DE21419D1300C73357 /* Assets.xcassets */; };
 		CF8495E221419D1300C73357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8495E021419D1300C73357 /* LaunchScreen.storyboard */; };
+		CF8495EA2141A53000C73357 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8495E92141A53000C73357 /* QuestionViewController.swift */; };
+		CF8495EC2141A53F00C73357 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8495EB2141A53F00C73357 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF8495D421419D1200C73357 /* Personality Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8495D721419D1200C73357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF8495D921419D1200C73357 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF8495D921419D1200C73357 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		CF8495DC21419D1200C73357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF8495DE21419D1300C73357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8495E121419D1300C73357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8495E321419D1300C73357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8495E92141A53000C73357 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CF8495EB2141A53F00C73357 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				CF8495D721419D1200C73357 /* AppDelegate.swift */,
-				CF8495D921419D1200C73357 /* ViewController.swift */,
 				CF8495DB21419D1200C73357 /* Main.storyboard */,
+				CF8495D921419D1200C73357 /* IntroductionViewController.swift */,
+				CF8495E92141A53000C73357 /* QuestionViewController.swift */,
+				CF8495EB2141A53F00C73357 /* ResultsViewController.swift */,
 				CF8495DE21419D1300C73357 /* Assets.xcassets */,
 				CF8495E021419D1300C73357 /* LaunchScreen.storyboard */,
 				CF8495E321419D1300C73357 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8495DA21419D1200C73357 /* ViewController.swift in Sources */,
+				CF8495DA21419D1200C73357 /* IntroductionViewController.swift in Sources */,
 				CF8495D821419D1200C73357 /* AppDelegate.swift in Sources */,
+				CF8495EA2141A53000C73357 /* QuestionViewController.swift in Sources */,
+				CF8495EC2141A53F00C73357 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

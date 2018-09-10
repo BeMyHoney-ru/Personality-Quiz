@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF775F2D2146DEBF00E7915D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF775F2C2146DEBF00E7915D /* Question.swift */; };
 		CF8495D821419D1200C73357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8495D721419D1200C73357 /* AppDelegate.swift */; };
 		CF8495DA21419D1200C73357 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8495D921419D1200C73357 /* IntroductionViewController.swift */; };
 		CF8495DD21419D1200C73357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8495DB21419D1200C73357 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF775F2C2146DEBF00E7915D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CF8495D421419D1200C73357 /* Personality Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8495D721419D1200C73357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF8495D921419D1200C73357 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				CF8495DB21419D1200C73357 /* Main.storyboard */,
 				CF8495D921419D1200C73357 /* IntroductionViewController.swift */,
 				CF8495E92141A53000C73357 /* QuestionViewController.swift */,
+				CF775F2C2146DEBF00E7915D /* Question.swift */,
 				CF8495EB2141A53F00C73357 /* ResultsViewController.swift */,
 				CF8495DE21419D1300C73357 /* Assets.xcassets */,
 				CF8495E021419D1300C73357 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF775F2D2146DEBF00E7915D /* Question.swift in Sources */,
 				CF8495DA21419D1200C73357 /* IntroductionViewController.swift in Sources */,
 				CF8495D821419D1200C73357 /* AppDelegate.swift in Sources */,
 				CF8495EA2141A53000C73357 /* QuestionViewController.swift in Sources */,
@@ -291,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q6MS8FBDA;
 				INFOPLIST_FILE = "Personality Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q6MS8FBDA;
 				INFOPLIST_FILE = "Personality Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
